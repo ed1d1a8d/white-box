@@ -27,4 +27,11 @@ dev = [
 white-box = "white_box.__main__:run"
 
 [tool.setuptools]
-packages = {}
+packages = [
+    "white_box",
+    "white_box.causal",
+    "white_box.nn",
+    "white_box.plotting",
+    "white_box.scripts",
+    "white_box.stats"
+]
