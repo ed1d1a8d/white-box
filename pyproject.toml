@@ -26,5 +26,5 @@ dev = [
 [project.scripts]
 white-box = "white_box.__main__:run"
 
-[options]
-packages = find:
+[tool.setuptools]
+packages = {}
