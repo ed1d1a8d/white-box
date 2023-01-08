@@ -27,4 +27,4 @@ dev = [
 white-box = "white_box.__main__:run"
 
 [tool.setuptools]
-packages = ["white_box"]
+packages = find:
